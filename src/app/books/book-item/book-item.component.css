@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    width: 380px;
+    height: 200px;
+    padding: 20px;
+    gap: 50px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__author {
+}
+
+.card__price {
+}
+
+.card__btn {
+    margin-top: auto;
+}
