@@ -20,10 +20,10 @@
         <div class="my-4">
             <button type="submit" [disabled]="myForm.form.invalid"
                     class="p-2 rounded w-full bg-purple-700 text-white hover:bg-purple-900">
-                <ng-container *ngIf="isLoading">
+                <ng-container *ngIf="isLoading()">
                     Loading...
                 </ng-container>
-                <ng-container *ngIf="!isLoading">
+                <ng-container *ngIf="!isLoading()">
                     Submit
                 </ng-container>
             </button>
